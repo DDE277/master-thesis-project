@@ -1,6 +1,6 @@
 # Master Thesis: Deconvoluting liquid biopsy cell-type compositions from nucleosome footprints
 
-This repository contains piplines and scripts developed during my master's thesis at the University of Zurich. The project focuses on preprocessing ATAC-seq and cfDNA data, generating synthetic samples, analyzing cfDNA nucleosome footprints, and performing cell-type deconvolution using the EPIC-ATAC framework.
+This repository contains piplines and scripts developed during my master's thesis at the University of Zurich. The project focuses on preprocessing ATAC-seq and cfDNA data, generating synthetic samples, analyzing cfDNA nucleosome footprints, and performing cfDNA cell-type deconvolution using the EPIC-ATAC framework.
 
 ## Repository structure
 
