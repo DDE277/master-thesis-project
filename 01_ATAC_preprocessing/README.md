@@ -12,9 +12,9 @@ Aligns trimmed reads to the human reference genome (hg38) using **Bowtie2** for 
 #### `004_post_alignment_processing_qc_checks_script.ipynb`
 Performs post-alignment processing including:
 - Removing mitochondrial reads
-- Excluding reads in blacklisted regions (e.g., ENCODE blacklist)
+- Excluding reads in blacklisted regions
 - Remove low-quality reads
-- Computing basic alignment QC metrics
+- Computing QC metrics
 
 #### `005_extraction_raw_count_regions_from_gabriel_script.ipynb`
 Extracts raw read counts from genomic regions of interest
@@ -26,10 +26,10 @@ Counts reads specifically overlapping **cell-type marker regions**, preparing in
 Performs similar counting but focused on **hepatocyte-specific reference regions**.
 
 #### `007_average_bigwig_replicates_corces_script.ipynb`
-Averages multiple **bigWig signal tracks** (e.g., replicates from Corces ATAC-seq) to reduce noise and enhance consistency.
+Averages multiple **bigWig signal tracks** (replicates from Corces ATAC-seq data) to reduce noise and enhance consistency.
 
 #### `008_weighted_accessibility_scores_bigwig_corces_in_gabriel_reference_script.ipynb`
-Calculates **weighted accessibility scores** by integrating averaged signal (from bigWigs) into the reference regions.
+Calculates **weighted accessibility scores** by integrating averaged signal into the reference regions.
 
 #### `009_merging_gabriel_corces_and_hepatocytes_samples_script.ipynb`
 Merges preprocessed ATAC-Seq data from different sources (Gabriel, Corces, hepatocyte) to create the reference matrix for downstream analysis.
