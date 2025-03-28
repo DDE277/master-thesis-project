@@ -5,13 +5,13 @@ This repository contains piplines and scripts developed during my master's thesi
 ## Repository structure
 
 `01_ATAC_preprocessing/`  
-Pipeline to preprocess ATAC-Seq data including adapter trimming, quality control, alignment, and read counting
+Pipeline to preprocess ATAC-Seq data including adapter trimming, quality control, alignment, and read counting.
 
 `02_cfDNA_preprocessing/`  
 Pipeline to preprocess cfDNA-Seq data including cfDNA fragmenter center counts calculation, Whittaker and Gaussian smoothing, z-score normalization, and trimming. 
 
 `03_synthetic_samples/`  
-Scripts to generate synthetic samples with known cell-type proportions including down-sampling .
+Scripts to generate synthetic samples with known cell-type proportions including down-sampling.
 
 `04_DA_and_reference_building/`  
 Scripts for pairwise differential accessibility analysis and new reference building for EPIC-ATAC.
