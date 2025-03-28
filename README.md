@@ -1,6 +1,6 @@
 # Master Thesis: Deconvoluting liquid biopsy cell-type compositions from nucleosome footprints
 
-This repository contains piplines and scripts developed during my master's thesis at the University of Zurich. The project focuses on analyzing cfDNA nucleosome footprints, preprocessing ATAC-seq and cfDNA data, generating synthetic samples, and performing cell-type deconvolution using EPIC-ATAC.
+This repository contains piplines and scripts developed during my master's thesis at the University of Zurich. The project focuses on analyzing cfDNA nucleosome footprints, preprocessing ATAC-seq and cfDNA data, generating synthetic samples, and performing cell-type deconvolution using the EPIC-ATAC framework.
 
 ## Repository structure
 
@@ -21,4 +21,4 @@ This repository contains piplines and scripts developed during my master's thesi
 
 ## Dependencies
 
-The Python and R packages are listed in requirements.txt, please ensure these are installed before running the scripts.
+The Python and R packages are listed in `requirements.txt`, please ensure these are installed before running the scripts.
