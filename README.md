@@ -19,6 +19,8 @@ This repository contains piplines and scripts developed during my master's thesi
 - `05_EPIC_deconvolution/`  
   Scripts applying the EPIC-ATAC algorithm for cell-type deconvolution on cfDNA-Seq data.
 
-## Dependencies
+## Packages and system-level tools
 
-The Python and R packages are listed in `requirements.txt`, please ensure these are installed before running the scripts.
+The required Python and R packages, as well as command-line tools, are listed in `requirements.txt`. Please ensure they are installed before running the scripts.
+
+
