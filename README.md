@@ -19,7 +19,7 @@ Scripts for pairwise differential accessibility analysis and new reference build
 `05_EPIC_deconvolution/`  
 Scripts applying the EPIC-ATAC algorithm for cell-type deconvolution on cfDNA-Seq data.
 
-## Packages and system-level tools
+## Packages and command-line tools
 
 The required Python and R packages, as well as command-line tools, are listed in `requirements.txt`. Please ensure they are installed before running the scripts.
 
